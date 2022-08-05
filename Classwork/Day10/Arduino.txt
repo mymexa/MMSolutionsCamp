@@ -1,0 +1,23 @@
+Microcontroller:
+
+CPU, SRAM, Flashmemory (ROM-Read Only Memory, tam se za pisvat programite na kontrolera i chete ot neq)
+EEPROM - elect erasable programing read only memory dostupen za zapazvane na nastroiki, promenlivi
+
+volatile memory - energo zavisimi pameti
+
+GPIO - general purpouse input output 
+
+digitalWrite
+digitalRead
+
+GPIO registri
+
+DDRx - Data Directional Register - 8bit / 1byte (vseki bit ot registera upravlqva pin) pinmode
+PORTx -  digitalWrite
+PINx - digitalRead chete 
+
+
+PWM - pulse width modulation 
+
+analogWrite(pin, 0-255)
+

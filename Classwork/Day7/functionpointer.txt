@@ -1,0 +1,2 @@
+return type(int, char,void) (*name Fp)(*point arg(void,char,int) *point arg(void char int))
+

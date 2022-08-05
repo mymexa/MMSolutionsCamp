@@ -1,0 +1,26 @@
+3.1 
+
+top 
+htop
+
+3.2:
+
+mkdir "MMS C camp"
+
+cp *.c ~/Desktop/Camp/"MMS C camp"/
+
+rm [0-9]*
+
+3.3: 
+
+chmod u=rwx,g=rw,o=r ~/Desktop/testfile
+
+3.4: 
+
+wc -l sum.c sqr.c > linescount
+
+3.5: 
+
+find -name "*.c"
+
+wc -l *.c

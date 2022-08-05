@@ -1,0 +1,11 @@
+tar -cvf myarchive.tar file*
+
+tar -xvf myarchive.tar 
+
+-c create -x unpack -f file -v verbose -z gnuzip -t list files in archive  -r add to existing archive
+
+file myarchive.tar  - file da info za file
+
+gzip, bz2 - kompresirane 
+
+tar -cvzf myarchive.gzip file*

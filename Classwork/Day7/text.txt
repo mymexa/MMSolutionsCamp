@@ -1,0 +1,77 @@
+main.c - cpp - main.i - gcc - main.s - assembly-main.o - linker - program - loader - dynamyc library
+                gcc - E      gcc -S             gcc -c 
+
+tee - komanda stdin file - stdout - t saedinenie
+tee file 
+
+cat | sort -n | tee nums | uniq
+
+
+() - nov subshell v koito izpalnqva
+
+cat | tee > (sort -n > file1) | sort -n -r 
+
+diff <(ls dir1) <(ls dir2)
+
+
+Regex - pattern for string 
+ls /usr/bin | grep "[ab]zip"    [] - ili 
+
+anchor 
+
+^ - nachalo na reda
+$ - krai na reda 
+. - wildcard 
+
+[^A-Z] - vsichko osven A-Z / razlichno ot 
+
+BRE - basic regular expression
+ERE - extended regular expression  grep -E  = egrep
+
+lex , bizon biblioteki za kompilator
+
+grep -E    * + ? {}
+
+* - predhodniq simvol 0 ili poveche pati 
+
+Ja*va - Jva, Java, Jaava, Jaaaava 
+
++ - pone 1 put predhodniq simvol
+
+Ja+va - Java , Jaava, Jaaava, Jaaaava
+
+? - 0 ili 1 put
+
+Ja?va - Jva , Java
+
+{chislo} - tochen broi simvoli ot predhodniq
+
+{chislo, chislo} - tochen broi ot do vkluchitelno
+
+{chislo , } - pone tolkova i nagore
+
+Ja{2}va - Jaava
+
+
+(Ja)*va - grupa - va, Jajajajava, Jajava
+
+
+aaa|bbb - ili aaa ili bbb
+
+aa(a|b)bb - aaabb ili aabbb
+
+\ - escape - otmenqm spec simvol 
+
+
+less , more - pager programa 
+
+less file - razglejdame file 
+
+ls | less 
+
+cut - komanda za rqzane na text 
+
+
+
+
+

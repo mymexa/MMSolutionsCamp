@@ -1,0 +1,2 @@
+High order func - funkcii ot po visok red - priema kato argument druga funciq
+

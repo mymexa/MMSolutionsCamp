@@ -1,0 +1,22 @@
+otvarqme file : FILE *fopen(char *filname,char *mode)
+mode: "r" "r+" "w" "w+" "a" "a+"
+
+int fputc(int c, FILE *file) - pishem v file 
+
+int fputs (const *s, FILE *file) - pishem niz
+
+int fgetc(FILE *file) - chete 1 simvol ot file 
+
+int fgets(FILE *file) - chete simvolen niz 
+
+int fseek(FILE *f, long offset, int whence) - izbira kade da pozicionira kursora
+whence - SEEK_SET, SEEK_CUR, SEEK_END
+
+long ftell(File *f) - pokazva kade se namira stream
+
+
+
+
+
+
+

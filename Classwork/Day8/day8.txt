@@ -1,0 +1,51 @@
+gcc -c randoms.c - o randoms.o 
+
+gcc -rcs librandlib randoms.o
+
+gcc main.c -o program -L. -l randlib
+
+gcc -fPIC -c objectfile.c
+
+PIC- positional independent code
+
+ gcc -shared -o libmylib.so objfile1.o
+
+export LD_LIBRARY_PATH=`pwd`
+
+ gcc main.c -o aot bitmask.o -L. -lmylib
+
+ Build system :
+
+makefile:
+
+target (file za suzdavane):dep (kakvo ni trqbva za da suzdadem target)
+	actions (deistviq po suzdavane)
+
+target:dep
+	actions
+
+
+komanda make izpulnqva samo 1 target
+
+komanda make "target-a" izpulnqva tozi target
+
+
+$@  - zamestva ime na targeta
+
+$< - pyrvoto dependency
+
+$^ - all dependency 
+
+% target : % dependency
+
+
+Embedded developer:
+
+- C ezik
+- OS: linux/unix
+- compiling process
+- Hardware - architektura / PIC/AVR/x86/ARM
+
+
+
+

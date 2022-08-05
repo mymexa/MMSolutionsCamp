@@ -1,0 +1,33 @@
+Preprocesor : 
+
+a = (uslovie) ? stoinost 1 : stoinost 2; 
+
+ako uslovieto e true vzima 1 ako ne e vzima 2
+
+a = 5>3 ? 4 : 5
+
+# - stingize
+## - join, concatenate
+
+#if
+
+#else
+
+#ifdef
+
+#ifndef
+
+#elif
+
+#endif
+
+gcc file -D name=value  - definirame macro i kopilirame = #define name value
+
+#pragma - prashta nastroiki kum kompilatora
+
+#error Error message - pravi greshka
+
+#warning warning message - pravi warning
+
+
+

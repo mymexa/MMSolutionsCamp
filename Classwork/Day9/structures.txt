@@ -1,0 +1,11 @@
+1. Var struct na adres nomer kraten na razmera na var 
+
+char ne se podravnqva poneje e 1 
+
+2. Razmera na cqlata structura e kraten na razmera na nai golemiq 
+
+#pragma pack(1) - sgustqga mqstoto - padding - algebrichnata suma 
+
+
+Bit fields: 
+

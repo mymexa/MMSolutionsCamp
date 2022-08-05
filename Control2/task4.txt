@@ -1,0 +1,12 @@
+1:
+find /home -name *.h | wc -l
+
+2:
+cat *.c | grep "int main()" | wc -l
+
+3:
+grep -E  "^08[7-9][0-9]{7}$|^[/+]3598[7-9][0-9]{7}$"  phones.info
+
+grep -E -v "^08[7-9][0-9]{7}$|^[/+]3598[7-9][0-9]{7}$" phones.info | wc -l 
+
+grep -E "^087[0-9]{7}$|^[/+]35987[0-9]{7}$" phones.info > phones.vivacom.data

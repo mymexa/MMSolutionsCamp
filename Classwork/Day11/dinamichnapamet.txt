@@ -1,0 +1,19 @@
+static memory:
+
+global variable 
+
+-static zadelq pamet za neshto ot nachalot do kraq na programata 
+
+
+call stack :
+
+last in first out
+local var 
+function call
+
+heap: 
+
+void* malloc(n bytes)  - vrushta address kum pametta
+free
+
+

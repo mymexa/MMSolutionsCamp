@@ -1,0 +1,41 @@
+Arduino Uno (tova pravim) Atmega 328
+Arduino Mega Atmega 2560
+micro
+nano
+
+
+razvoina platka : micro controller , periferiq , usb interface, chip preobrazuva usb komunikaciq komunikaciq
+kum seriina komunikaciq, chip s bootloader , zahranvane 
+
+Arduino IDE
+
+
+do not install with apt install - ne raboti pravilno
+
+install - official site arduino.cc
+
+download arduino for linux 64 
+
+razarhivirame tar-xvf 
+
+vlizame v papka i puskame scripta sudo ./install.sh
+
+
+tty - teletype 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
