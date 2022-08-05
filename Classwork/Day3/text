@@ -1,0 +1,47 @@
+Realni chisla
+
+float , double - IEEE754
+
+float 32bit - 4byte
+double 64bit - 8byte
+
+float - 1bit znakov
+8 bit - eksponent
+23 bit - mantisa
+
+cifrite sled zapetaqta v mantisata 
+stepenta na chisloto v exponentata
+
+double - 1 bit znakov
+11 bit - eksponenta
+52 bit - mantisa
+
+a && 0 = 0
+a && 1= a
+a || 0 = a
+a || 1 = 1
+a ^ 0 = a
+a ^ 1 ! a
+
+a >> n = a / 2^n
+
+a << n = a * 2^n
+
+mask
+
+1. Check bit : !! (mask & 1<<bit )
+
+2. set bit : mask = mask | (1<<bit)
+
+3. clear bit :mask= mask & ~(1<<bit)
+
+
+
+
+
+
+
+
+
+
+
